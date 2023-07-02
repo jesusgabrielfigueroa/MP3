@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>MP3</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+	<button id="add">+</button>
+
+	<div class="container-add close" id="cont-add">
+		<input type="text" id="music-name" placeholder="name">
+		<!-- <button ></button> -->
+		<div class="chosse-cont">
+			<div id="chosse">
+				<input type="file" id="cho" accept="video/*">
+			</div>
+			<span class="text-chosse">chosse</span>
+		</div>
+		
+		<div class="add-btns">
+			<button id="back"></button>
+			<button id="yes"></button>
+		</div>
+	</div>
+
+	<audio src="" id="audio"></audio>
+
+	<div class="container">
+		<div class="desc">
+			<h3 id="name">- - - - - - -</h3>
+			<span class="autor">suver</span>
+		</div>
+
+		<div id="barra">
+			<div id="relleno"></div>
+		</div>
+
+
+		<div class="controls">
+			<button class="btn" id="left"></button>
+			<button class="btn pla" id="play"></button>
+			<button class="btn" id="right"></button>
+		</div>
+
+
+	</div>
+	
+	<script src="js.js"></script>
+</body>
+</html>
